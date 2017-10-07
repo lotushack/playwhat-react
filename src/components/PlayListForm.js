@@ -54,7 +54,7 @@ handleSongNotesChange = (evt) => {
     }
   }
   render() {
-    console.log(this);
+    // console.log(this);
     return(
       <form onSubmit={this.addToList}>
         <div className="form-group">
